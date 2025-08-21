@@ -5,6 +5,10 @@
 - Асинхронные методы для всех основных эндпоинтов OpenRouter API
 - Упрощённый и более структурированный код
 
+---
+### Использование
+[![OpenrouterAPI Downloads](https://static.pepy.tech/badge/openrouterapi)](https://pepy.tech/projects/openrouterapi)
+
 ## Установка
 
 ```bash
@@ -92,6 +96,4 @@ asyncio.run(main())
 
 * Клиент использует постоянную `aiohttp.ClientSession`, чтобы не создавать новую сессию для каждого запроса.
 
----
-### Использование
-[![OpenrouterAPI Downloads](https://static.pepy.tech/badge/openrouterapi)](https://pepy.tech/projects/openrouterapi)
+
