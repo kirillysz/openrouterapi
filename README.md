@@ -8,7 +8,7 @@
 ## Установка
 
 ```bash
-pip install aiohttp
+pip install openrouterapi
 ```
 
 ## Использование
