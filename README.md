@@ -91,4 +91,7 @@ asyncio.run(main())
 ## Примечания
 
 * Клиент использует постоянную `aiohttp.ClientSession`, чтобы не создавать новую сессию для каждого запроса.
-* Используйте `async with` для правильного управления сессией.
+
+---
+### Использование
+[![OpenrouterAPI Downloads](https://static.pepy.tech/badge/openrouterapi)](https://pepy.tech/projects/openrouterapi)
