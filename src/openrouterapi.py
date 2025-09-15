@@ -3,9 +3,6 @@ from .request import Base
 from aiohttp import ClientSession
 from typing import Dict, Any
 
-BASE_URL = "https://openrouter.ai/api/v1"
-
-
 class OpenRouterAPI(Base):
     ENDPOINTS = {
         "completion": "/completions",
